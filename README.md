@@ -1,11 +1,5 @@
 # LeNet-5
-![image](https://github.com/ArtificialZeng/readme_add_pic/raw/master/imagePath/111.jpg)
-
 ![image](https://imgur.com/eqUaHsC.jpg)
-(http://github.com/itmyhome2013/readme_add_pic/raw/master/images/nongshalie.jpg)
-![image](https://github.com/ArtificialZeng/readme_add_pic/raw/master/imagePath/2020-03-04%2004-47-16.png)
-
-
 
 This implements a slightly modified LeNet-5 [LeCun et al., 1998a] and achieves an accuracy of ~99% on the [MNIST dataset](http://yann.lecun.com/exdb/mnist/).
 
