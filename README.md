@@ -1,4 +1,5 @@
 # LeNet-5
+/home/ailab/图片/2020-03-04 04-47-16屏幕截图.png
 
 This implements a slightly modified LeNet-5 [LeCun et al., 1998a] and achieves an accuracy of ~99% on the [MNIST dataset](http://yann.lecun.com/exdb/mnist/).
 
