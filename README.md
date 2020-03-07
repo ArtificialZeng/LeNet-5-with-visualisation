@@ -1,6 +1,8 @@
 # LeNet-5
 ![image](https://imgur.com/eqUaHsC.jpg)
 
+![image](https://imgur.com/LxR5KZd)
+
 This implements a slightly modified LeNet-5 [LeCun et al., 1998a] and achieves an accuracy of ~99% on the [MNIST dataset](http://yann.lecun.com/exdb/mnist/).
 
 
