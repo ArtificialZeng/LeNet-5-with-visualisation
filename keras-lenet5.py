@@ -62,3 +62,24 @@ hist = model.fit(x=x_train,y=y_train, epochs=10, batch_size=128, validation_data
 
 test_score = model.evaluate(x_test, y_test)
 print("Test loss {:.4f}, accuracy {:.2f}%".format(test_score[0], test_score[1] * 100))
+
+#绘图
+import matplotlib.pyplot as plt
+f, ax = plt.subplots()
+ax.plot([None] + hist.history['accuracy'], 'o-')
+ax.plot([None] + hist.history['val_accuracy'], 'x-')
+# Plot legend and use the best location automatically: loc = 0.
+ax.legend(['Train acc','Validation acc'], loc = 0)
+ax.set_title('Training/Validation acc per Epoch')
+ax.set_xlabel('Epoch')
+ax.set_ylabel('acc')
+
+import matplotlib.pyplot as plt
+f, ax = plt.subplots()
+ax.plot([None] + hist.history['loss'], 'o-')
+ax.plot([None] + hist.history['val_loss'], 'x-')
+# Plot legend and use the best location automatically: loc = 0.
+ax.legend(['Train Loss', 'Validation Loss'], loc = 0)
+ax.set_title('Training/Validation Loss per Epoch')
+ax.set_xlabel('Epoch')
+ax.set_ylabel('Loss')
